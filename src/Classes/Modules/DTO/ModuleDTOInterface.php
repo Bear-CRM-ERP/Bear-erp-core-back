@@ -17,4 +17,9 @@ interface ModuleDTOInterface
      * @return string json from Dto object
      */
     public function getDtoJson(): string;
+
+    /** return this object has in link field data
+     * @return bool
+     */
+    public function isFull(): bool;
 }
